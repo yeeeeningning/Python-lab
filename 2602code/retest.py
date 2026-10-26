@@ -1,6 +1,6 @@
 import time
 
-n = 100000
+n = 100
 items = list(range(n))
 # 构造一个查询列表（包含存在于不存在的情况）
 queries = [0,  n - 1, n] 
