@@ -3,7 +3,7 @@ import time
 n = 100000
 items = list(range(n))
 # 构造一个查询列表（包含存在于不存在的情况）
-queries = [0, n // 2, n - 1, n] 
+queries = [0,  n - 1, n] 
 
 # --- 1. 测量构造集合的耗时 ---
 start = time.perf_counter()
